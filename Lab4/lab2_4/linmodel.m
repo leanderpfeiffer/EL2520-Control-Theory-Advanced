@@ -26,10 +26,10 @@ function sys = linmodel(a1,a2,a3,a4,h10,h20,h30,h40,u10,u20,k1,k2,gam1,gam2)
 % This file is changed by Jonas Wijk 2002-12-27, to work with the new watertanks.
 
 % Cross section areas
-A1 = 15.5179;   % cm^2
-A2 = 15.5179;   % cm^2
-A3 = 15.5179;   % cm^2
-A4 = 15.5179;   % cm^2
+A1 = 15.52;   % cm^2
+A2 = 15.52;   % cm^2
+A3 = 15.52;   % cm^2
+A4 = 15.52;   % cm^2
 
 % Sensor proportional constant
 kc = 0.2;       % V/cm
