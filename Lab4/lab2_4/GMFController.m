@@ -42,7 +42,7 @@ F=W1*F_tilde*Fr;
 
 F = ss(F,'min');
 [A,B,C,D] = ssdata(F);
-
+G = G;
 sim('closedloop')
 
 figure

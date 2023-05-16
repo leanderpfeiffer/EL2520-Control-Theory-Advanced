@@ -1,4 +1,4 @@
-function [A,B,C,D] = decentralizedController(G,w_c, pm, phase)
+function [A,B,C,D] = decentralizedController(G, w_c, pm, phase)
 
 G_wc = evalfr(G,w_c);
 rga = G_wc.*inv(G_wc)'
@@ -42,7 +42,7 @@ F = W1*F_tilde;
 
 F = ss(F,'min');
 [A,B,C,D] = ssdata(F);
-
+G = G;
 sim('closedloop')
 
 figure
